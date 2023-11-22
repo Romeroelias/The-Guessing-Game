@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "tajawal", sans-serif;
+    color: #fff;
+}
+
+body{
+    background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+    font-weight: bolder;
+    text-align: center;
+    margin: 3rem;
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    max-width: 30rem;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+
+.text{
+    font-size: 1.2rem;
+    padding-bottom: .6rem;
+}
+
+#submitButton{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 4px 30px;
+    background-color: black;
+    transition: all ease 0.2s;
+    
+}
+
+#submitButton:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+label{
+    padding-right: 20px;
+    font-weight: 400;
+}
+
+#guessField{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'bebas neue', sans-serif;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 6rem;
+    height: 1.6rem;
+    margin-right: .4rem;
+    list-style: none;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.note-div{
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    text-align: center;
+}
